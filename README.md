@@ -68,7 +68,7 @@ And since this project is not developed in code first mode, I have not added any
 
 The original code does not contain much comments.
 
-I tried to add comments in a single interface **IAccountService**, just showing how to.
+I tried to add comments in a single service **AccountService**, just showing how to.
 
 Sorry due to time limit I have not add comment to all the files.
 
