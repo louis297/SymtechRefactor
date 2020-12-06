@@ -32,10 +32,6 @@ Controller layer will deal with data from frontend, and call service layer for c
 
 Service layer will analyse the data, complete the business logic and operate Database (maybe through ORM).
 
-## Dependency Injection
-
-All the services are ready for DI, with interface ready.
-
 # Persistence
 
 ## Move connection string to Web.config
@@ -94,6 +90,10 @@ The new items are named like "RefactorDbContext".
 Logger should be added to the project.
 
 Loggings help the administrators to analyse any runtime problems.
+
+## Dependency Injection
+
+All the services and DbContext are ready for DI, with interface ready.
 
 ## Add test
 
